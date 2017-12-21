@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.pexeso.soc"
+        versionCode = "4" 
+        version="8.0.0">
+    <name>Pexeso Memory Game</name>
+    <description>
+        Jednoduchá ukážka hry pexeso.
+    </description>
+    <author email="kamil.kafunek@yahoo.com" href="http://phonegap.com">
+        Kamil Kafúnek
+    </author> 
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="KeepRunning" value="false"/>
+    
+    
+    <platform name="android"/>
+    
+    <splash platform="android" qualifier="port-mdpi" src="splash/android/splash screen320x480.png" />
+    <splash platform="android" qualifier="port-hdpi" src="splash/android/splash screen480x800.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="splash/android/splash screen720x1280.png" />
+    <splash platform="android" qualifier="port-xxhdpi" src="splash/android/splashScreen960x1600.png" />
+    <splash platform="android" qualifier="port-xxxhdpi" src="splash/android/splashScreen1280x1920.png" />
+    <splash src="splash.png" />
+    
+    <icon src="icon.png" />
+    
+        <preference name="SplashScreenDelay" value="4000" />    
+        <preference name="orientation" value="portrait" />
+        <preference name="android-minSdkVersion" value="19" />
+        <preference name="android-maxSdkVersion" value="23" />
+        <preference name="android-targetSdkVersion" value="21" />
+        
+    
+    
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
+</widget>
