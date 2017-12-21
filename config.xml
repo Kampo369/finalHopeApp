@@ -3,7 +3,7 @@
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="com.pexeso.soc"
         versionCode = "4" 
-        version="5.0.0">
+        version="6.0.0">
     <name>Pexeso Memory Game</name>
     <description>
         Jednoduchá ukážka hry pexeso.
