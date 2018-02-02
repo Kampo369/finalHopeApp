@@ -3,7 +3,7 @@
         xmlns:gap="http://phonegap.com/ns/1.0"
         id="com.pexeso.soc"
         versionCode = "6" 
-        version="8.3.0">
+        version="8.3.1">
     <name>Pexeso Memory Game</name>
     <description>
         Jednoduchá ukážka hry pexeso.
@@ -18,7 +18,7 @@
     
     <platform name="android"/>
     
-    <gap:plugin nam="org.apache.cordova.splashscreen" />
+    <gap:plugin nam="cordova plugin add https://github.com/apache/cordova-plugin-splashscreen.git" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
    
